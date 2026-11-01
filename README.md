@@ -9,6 +9,8 @@ It started as a pure HTML and CSS project and was later refactored to **React**,
 
 The interface recreates the look of a command-line terminal, using familiar commands such as `nano`, `ls` and `tree` to present information about me, my projects and my technical skills. The portfolio is divided into multiple pages: a main terminal interface, a README-style introduction and a projects section.
 
+Check out here: **[anaclaramtn.github.io/portfolio-web-dev-react](https://anaclaramtn.github.io/portfolio-web-dev-react/)**
+
 
 ## Running locally
 
