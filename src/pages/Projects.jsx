@@ -137,7 +137,7 @@ function ProjectSection({ project }) {
   const images = project.images.map((image) => (
     <motion.img
       key={image.src}
-      src={image.src}
+      src={`${import.meta.env.BASE_URL}${image.src.replace(/^\//, '')}`}
       alt={image.alt}
       className="portfolio-img"
       style={image.style}

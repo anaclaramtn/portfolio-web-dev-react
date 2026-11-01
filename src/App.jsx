@@ -8,7 +8,7 @@ import Projects from './pages/Projects.jsx'
 export default function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route element={<Terminal />}>
             <Route index element={<Home />} />

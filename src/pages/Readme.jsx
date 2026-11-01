@@ -87,7 +87,7 @@ export default function Readme() {
         <div className="column" style={{ alignItems: 'center', display: 'flex' }}>
           <Reveal y={24} delay={cmd.output + 0.3}>
             <motion.img
-              src="/me.jpg"
+              src={`${import.meta.env.BASE_URL}me.jpg`}
               alt="Ana Clara"
               className="me-img"
               whileHover={{ scale: 1.03, rotate: 1 }}
